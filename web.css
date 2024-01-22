@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    font-family: "Roboto";
+}
+
+.navbar-container {
+    background-color: #f55b5b;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+.bar-image {
+    box-sizing: content-box;
+    height: 25px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.first-page {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.top-section {
+    background-image: linear-gradient(to right, #f7f5ab, #f7cbf5);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 35px;
+    width: 50vw;
+}
+
+.heading {
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+
+.paragraph {
+    padding-bottom: 20px;
+}
+
+.click-button {
+    background-color: #e04f69;
+    color: white;
+    padding: 8px;
+    width: 180px;
+    border-color: #f7f5ab;
+}
+
+.top-section-image-container {
+    background-image: url("https://res.cloudinary.com/djw5hlnnw/image/upload/v1705905024/pexels-robin-stickel-70497_1_veuayu.jpg");
+    background-size: cover;
+    height: 450px;
+    width: 50vw;
+
+}
+
+.second-page {
+    background-image: linear-gradient(to right, #f7f5ab, #f7cbf5);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 10px;
+    padding: 25px;
+}
+
+.hotel-imges-container {
+    display: flex;
+    flex-direction: row;
+    width: 47vw;
+}
+
+.hotel-imges {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image-1 {
+    height: 180px;
+    width: 25vw;
+    padding: 5px
+}
+
+.food-items {
+    background-image: url("https://res.cloudinary.com/djw5hlnnw/image/upload/v1705904991/pexels-mister-mister-3434523_wbgvrp.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 25vw;
+    margin: 5px
+}
+
+.lorem-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f55b5b;
+    margin-left: 25px;
+    align-self: center;
+    padding: 10px;
+    width: 45vw;
+}
+
+.click-container {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.para {
+    color: black;
+    font-size: 25px;
+    line-height: 0.1;
+}
+
+.lorem-heading {
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 38px;
+}
+
+.arrow-image {
+    box-sizing: content-box;
+    height: 35px;
+    width: 40px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+
+
+
+
+
+
+@media (min-width:767px) {
+    .bar-image {
+        margin-right: 100px;
+    }
+
+    .navbar-container {
+        padding-left: 100px;
+    }
+}
+
+@media (max-width:767px) {
+    .first-page {
+        flex-wrap: wrap;
+    }
+
+    .top-section-image-container {
+        width: 100vw;
+    }
+
+    .top-section {
+        width: 100vw;
+    }
+
+    .second-page {
+
+        flex-wrap: wrap;
+    }
+
+    .hotel-imges-container {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .image-1 {
+        height: 26vh;
+        width: 40vw;
+    }
+
+    .food-items {
+        width: 40vw;
+        height: 50vh;
+    }
+
+    .lorem-card {
+        height: 33vh;
+        width: 100vw;
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+
+
+
+}
+
+@media (max-width:575px) {
+    .para {
+        font-size: 16px;
+        line-height: 0.1;
+    }
+
+    .lorem-heading {
+        font-size: 22px;
+        line-height: 1;
+    }
+
+    .arrow-image {
+        padding-top: 2px;
+        padding-left: 5px;
+        height: 25px;
+        width: 30px;
+    }
+}
